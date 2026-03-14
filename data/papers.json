@@ -1,0 +1,139 @@
+[
+  {
+    "title": "🥇Top AI Papers of the Week",
+    "link": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-8c6",
+    "pubDate": "Sun, 08 Mar 2026 15:01:12 GMT",
+    "image": "https://substackcdn.com/image/fetch/$s_!2M4x!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa275a0d7-3d12-45d2-b0f2-301c54c96f4b_2398x1452.png",
+    "paperLink": "https://arxiv.org/abs/2603.03212",
+    "tweetLink": "https://x.com/omarsar0/status/2029201212596519070",
+    "summary": [
+      "Custom agent harness - NeuroLoop: The system runs an agentic flow called NeuroLoop that engages with the user on multiple cognitive and affective levels, including empathy. It processes BCI signals through a foundation EXG model, converts them to state-of-mind descriptions, and uses those descriptions to drive actionable tool calls and protocol execution.",
+      "Fully offline edge deployment: The entire system runs locally on edge devices with no network dependency. This is a significant design choice for both privacy and latency, enabling real-time responsiveness to shifting cognitive states without cloud round-trips.",
+      "Proactive vs reactive interaction: NeuroSkill handles both explicit and implicit requests from the user. By continuously reading brain signals, it can detect confusion, cognitive overload, or emotional shifts and adjust its behavior before the user explicitly asks for help.",
+      "Open-source with ethical licensing: Released under GPLv3 with an ethically aligned AI100 licensing framework for the skill markdown, making the system reproducible and auditable while enforcing responsible use guardrails.",
+      "Bayesian Assistant as teacher: The method constructs synthetic training data from interactions between users and an idealized Bayesian Assistant. By exposing the LLM to examples of optimal belief updating, the model learns to approximate Bayesian inference without any architectural changes."
+    ]
+  },
+  {
+    "title": "🤖 AI Agents Weekly: AI Labor Market Impacts, Google Workspace CLI, GPT-5.4, Exa Deep, and More",
+    "link": "https://nlp.elvissaravia.com/p/ai-agents-weekly-ai-labor-market",
+    "pubDate": "Sat, 07 Mar 2026 15:03:24 GMT",
+    "image": "https://substackcdn.com/image/fetch/$s_!eY71!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f1eee70-43bc-4e2b-8297-96d1e7c6b42c_4096x4096.png",
+    "paperLink": null,
+    "tweetLink": null,
+    "summary": [
+      "Programmer exposure is highest: Computer programmers top the list at 75% task coverage, followed by customer service representatives and data entry keyers at 67%, reflecting the concentration of automated API usage in coding and support workflows.",
+      "No unemployment signal yet: Using Current Population Survey data, the study finds no systematic increase in unemployment for workers in the most AI-exposed occupations since late 2022, though the framework could detect differential increases on the order of 1 percentage point.",
+      "Youth hiring slowdown: There is suggestive evidence that hiring of workers aged 22-25 has slowed in exposed occupations, with a 14% drop in the job finding rate compared to 2022, echoing findings from Brynjolfsson et al. using ADP payroll data.",
+      "Massive capability gap: AI is far from reaching its theoretical capability. Claude currently covers just 33% of all tasks in Computer and Math occupations, despite 94% being theoretically feasible, indicating significant room for future displacement as adoption deepens.",
+      "100+ agent skills: The repo includes SKILL.md files for every supported API plus higher-level helpers, with 50 curated recipes for common workflows across Gmail, Drive, Docs, Calendar, and Sheets."
+    ]
+  },
+  {
+    "title": "🥇Top AI Papers of the Week",
+    "link": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-339",
+    "pubDate": "Sun, 01 Mar 2026 15:02:40 GMT",
+    "image": "https://substackcdn.com/image/fetch/$s_!MP5E!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6377f483-06c6-474f-b370-76edcc90ef81_674x378.png",
+    "paperLink": "https://arxiv.org/abs/2602.13517",
+    "tweetLink": "https://x.com/omarsar0/status/2025239354327924833",
+    "summary": [
+      "Deep-thinking ratio as a reasoning signal: For each generated token, intermediate-layer distributions are compared to the final-layer distribution using Jensen-Shannon divergence. A token qualifies as deep-thinking if its prediction only stabilizes in the final 15% of layers. This captures genuine computational effort rather than surface-level verbosity.",
+      "Think@n test-time scaling: The authors introduce Think@n, a strategy that prioritizes samples with high deep-thinking ratios. It matches or exceeds standard self-consistency performance while cutting inference costs by approximately 50% through early rejection of unpromising generations based on just 50-token prefixes.",
+      "Benchmark validation: Evaluated across AIME 24/25, HMMT 25, and GPQA-diamond with reasoning models including GPT-OSS, DeepSeek-R1, and Qwen3. The deep-thinking ratio consistently outperforms length-based and confidence-based baselines as a predictor of correctness.",
+      "Practical implications: This reframes how we think about test-time compute. Instead of generating more tokens, we should focus on generating tokens that require deeper internal computation, enabling more efficient and accurate reasoning.",
+      "Hot-memory constitution: A living document encoding conventions, retrieval hooks, and orchestration protocols that the agent consults at the start of every session. This provides immediate awareness of project standards without requiring the agent to rediscover them through exploration."
+    ]
+  },
+  {
+    "title": "🤖 AI Agents Weekly: Evaluating AGENTS.md, Perplexity Computer, Nano Banana 2, Doc-to-LoRA, Hermes Agent, Mercury 2, and More",
+    "link": "https://nlp.elvissaravia.com/p/ai-agents-weekly-evaluating-agentsmd",
+    "pubDate": "Sat, 28 Feb 2026 15:02:33 GMT",
+    "image": "https://substackcdn.com/image/fetch/$s_!-XGl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bd73370-96f7-460b-813e-dfb6f23abad6_896x304.png",
+    "paperLink": "https://arxiv.org/abs/2602.11988",
+    "tweetLink": null,
+    "summary": [
+      "Lower success rates: Both LLM-generated and human-written context files caused agents to solve fewer tasks on SWE-bench compared to agents given no repository context, challenging the widely adopted practice of writing detailed agent instructions.",
+      "Broader but less effective exploration: Context files prompted agents to explore more thoroughly, including more testing and file traversal, but the additional constraints made tasks harder rather than easier.",
+      "Minimal is better: The authors recommend that context files describe only minimal requirements rather than comprehensive specifications, as unnecessary constraints actively hurt agent performance.",
+      "Practical implications: The findings suggest developers should rethink how they structure AGENTS.md, CLAUDE.md, and similar context files, focusing on essential guardrails rather than exhaustive instructions."
+    ]
+  },
+  {
+    "title": "Does AGENTS.md Actually Help Coding Agents?",
+    "link": "https://nlp.elvissaravia.com/p/does-agentsmd-actually-help-coding",
+    "pubDate": "Thu, 26 Feb 2026 16:03:25 GMT",
+    "image": "https://substackcdn.com/image/fetch/$s_!dmVe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b563fd7-3743-457d-a94e-d042e9f81b28_1920x635.png",
+    "paperLink": "https://arxiv.org/abs/2602.11988",
+    "tweetLink": null,
+    "summary": []
+  },
+  {
+    "title": "🥇Top AI Papers of the Week",
+    "link": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-c98",
+    "pubDate": "Sun, 22 Feb 2026 15:00:36 GMT",
+    "image": "https://substackcdn.com/image/fetch/$s_!UNIS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7821f5c8-d0cb-4376-8ecd-6c1b56178810_5576x1520.png",
+    "paperLink": "https://arxiv.org/abs/2602.11865",
+    "tweetLink": "https://x.com/omarsar0/status/2023146815789597015",
+    "summary": [
+      "Adaptive delegation structure: The framework treats delegation as a dynamic process involving task allocation, transfer of authority, responsibility, and accountability. Rather than static heuristics, it enables real-time adaptation to environmental shifts and resilient failure management across both human and AI delegators.",
+      "Trust calibration mechanisms: Introduces formal trust models that account for capability uncertainty, task complexity, and historical performance. This prevents both over-delegation (assigning tasks beyond agent capability) and under-delegation (failing to leverage available AI capacity).",
+      "Verification and integration: Defines structured approaches for validating AI outputs before integration, including confidence-aware acceptance criteria and fallback protocols. This is critical for production deployments where blind trust in agent outputs creates compounding errors.",
+      "Multi-agent delegation networks: Extends the framework to scenarios where AI agents delegate to other AI agents, creating delegation chains that require accountability tracking and authority propagation rules across the network.",
+      "Moltbook as a natural laboratory: Moltbook is the largest persistent, publicly accessible AI-only social platform with millions of LLM-driven agents interacting through posts, comments, and voting. This provides an unprecedented real-world testbed for studying emergent collective behavior without human intervention."
+    ]
+  },
+  {
+    "title": "🤖 AI Agents Weekly: Claude Sonnet 4.6, Gemini 3.1 Pro, Stripe Minions, Cloudflare Code Mode, Qwen 3.5",
+    "link": "https://nlp.elvissaravia.com/p/ai-agents-weekly-claude-sonnet-46",
+    "pubDate": "Sat, 21 Feb 2026 15:02:05 GMT",
+    "image": "https://substackcdn.com/image/fetch/$s_!C7sv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F821a5600-183f-4ed6-8fc4-a2987bcddc11_3840x1948.png",
+    "paperLink": null,
+    "tweetLink": null,
+    "summary": [
+      "Computer use breakthrough: OSWorld scores jumped from 14.9% to 72.5%, a nearly 5x improvement that makes Sonnet 4.6 the most capable model for autonomous computer interaction and GUI-based agent workflows.",
+      "1M token context window: Available in beta, the extended context enables agents to process entire codebases, long documents, and multi-session histories without losing track of earlier context.",
+      "User preference: In blind A/B tests, users preferred Sonnet 4.6 over Sonnet 4.5 roughly 70% of the time, with particular strength in coding tasks, instruction following, and nuanced reasoning.",
+      "Cost-efficient scaling: Priced at $3/$15 per million input/output tokens, making it accessible for high-volume agent deployments while delivering performance competitive with much larger models.",
+      "Exploit-first strength: Agents perform best in the exploit setting, where the objective is explicit (iterate until funds are drained), but struggle more on detect and patch tasks where exhaustive auditing and maintaining full functionality are required."
+    ]
+  },
+  {
+    "title": "🥇Top AI Papers of the Week",
+    "link": "https://nlp.elvissaravia.com/p/top-ai-papers-of-the-week-544",
+    "pubDate": "Sun, 15 Feb 2026 15:02:49 GMT",
+    "image": "https://substackcdn.com/image/fetch/$s_!fJi4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e16c234-e812-4ccb-a052-7c1b33ccaafa_2398x1042.png",
+    "paperLink": "https://arxiv.org/abs/2602.07755",
+    "tweetLink": "https://x.com/jeffclune/status/2021242681826095179",
+    "summary": [
+      "Open-ended code search: A Meta Agent samples previously explored memory designs from an archive, reflects on their code and evaluation logs, proposes new designs, and implements them as executable code. This gives ALMA the theoretical potential to discover arbitrary memory architectures, from graph databases to strategy libraries, unconstrained by human design intuitions.",
+      "Domain-adaptive memory discovery: ALMA discovers fundamentally different memory structures for different domains: affordance graphs for ALFWorld, task signature databases for TextWorld, strategy libraries with rule prediction for Baba Is AI, and risk-interaction schemas for MiniHack. This specialization emerges automatically from the search process.",
+      "Consistent gains over human baselines: Learned memory designs achieve 12.3% average success rate with GPT-5-nano (vs 8.6% for the best human baseline) and 53.9% with GPT-5-mini (vs 48.6%). The designs also scale better with more collected experience and transfer robustly across different foundation models.",
+      "Toward self-improving agentic systems: ALMA represents a step toward AI systems that learn to be continual learners. The progressive discovery process shows that moderate-performing designs serve as stepping stones toward optimal solutions, with the archive enabling cumulative innovation across exploration iterations.",
+      "Editable state evolution: Unlike standard diffusion models that only unmask tokens, LLaDA 2.1 can also edit already-generated tokens. This dual action space (unmasking + correction) lets the model aggressively draft with low-confidence thresholds and then refine errors in subsequent passes, fundamentally changing the speed-quality trade-off."
+    ]
+  },
+  {
+    "title": "🤖AI Agents Weekly: GPT-5.3-Codex-Spark, GLM-5, MiniMax M2.5, Recursive Language Models, Harness Engineering, Agentica, and More",
+    "link": "https://nlp.elvissaravia.com/p/ai-agents-weekly-gpt-53-codex-spark",
+    "pubDate": "Sat, 14 Feb 2026 15:02:06 GMT",
+    "image": "https://substackcdn.com/image/fetch/$s_!KP8G!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F265144fc-c726-49a8-a266-d05d2bf4fc1d_2200x1100.png",
+    "paperLink": null,
+    "tweetLink": null,
+    "summary": [
+      "Self-developing model: The Codex team used early versions of GPT-5.3 to debug its own training, manage deployment, and diagnose test results and evaluations, making it the first model instrumental in its own development.",
+      "Beyond coding: Handles professional knowledge-work outputs like presentations, spreadsheets, and documentation. On GDPval, a knowledge-work benchmark, it wins or ties in 70.9% of evaluations.",
+      "Cybersecurity concerns: OpenAI rates this as their first model hitting &#8220;high&#8221; for cybersecurity capability under their Preparedness Framework, meaning it could meaningfully enable real-world cyber harm if automated. They announced a $10M API credits program for cyber defense research in response.",
+      "Agent Mode: Native capability for autonomous task decomposition, breaking high-level objectives into subtasks with minimal human intervention. Can transform raw prompts into professional documents in .docx, .pdf, and .xlsx formats.",
+      "Training scale: Ingested 28.5 trillion tokens during pre-training, a 23.9% increase over GLM-4.7. Uses a novel RL technique that achieves record-low hallucination rates."
+    ]
+  },
+  {
+    "title": "Recursive Language Models: Stop Stuffing the Context Window",
+    "link": "https://nlp.elvissaravia.com/p/recursive-language-models-stop-stuffing",
+    "pubDate": "Thu, 12 Feb 2026 20:07:04 GMT",
+    "image": "https://substackcdn.com/image/fetch/$s_!2EU6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe31912fc-af0e-433f-8c8e-22fd4c0e6bc8_2721x2073.png",
+    "paperLink": "https://arxiv.org/abs/2512.24601",
+    "tweetLink": "https://x.com/a1zhang",
+    "summary": []
+  }
+]
